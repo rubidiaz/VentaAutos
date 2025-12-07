@@ -1,3 +1,60 @@
+# Venta de Autos – Webanwendung mit Angular
+
+Dieses Projekt ist eine einfache Webanwendung, die eine fiktive Autoverkaufsseite darstellt.  
+Es wurde mit Angular entwickelt und zeigt eine Liste von Fahrzeugen sowie ein einfaches Registrierungsformular für Kunden.
+
+## 🛠 Verwendete Technologien
+
+- Angular
+- TypeScript
+- HTML
+- CSS
+
+## 🚀 Funktionsumfang
+
+### 1. Startseite
+- Titel und Bild zur Einführung in die Anwendung (Tech Academy).
+
+### 2. Automobil-Liste (`/autos`)
+- Tabelle mit verschiedenen Fahrzeugen.
+- Für jedes Fahrzeug werden folgende Informationen angezeigt:
+  - Marke  
+  - Modell  
+  - Baujahr  
+  - Farbe  
+  - Kilometerstand  
+  - Preis  
+  - Bewertung in Sternen
+- Ein Button **„Oculta/Mostrar imágenes“** zum Ein- und Ausblenden der Fahrzeugbilder.
+- Ein Eingabefeld zum **Filtern nach Marke**.
+
+### 3. Kundenregistrierung (`/registrarse`)
+- Einfaches Formular mit folgenden Feldern:
+  - Name  
+  - Passwort  
+  - Option „¿Desea contacto?“  
+  - E-Mail-Adresse  
+  - Telefonnummer
+- Nach dem Absenden erscheint ein Bestätigungsdialog:  
+  *„Sus datos han sido guardados“* (Ihre Daten wurden gespeichert).
+
+## 📘 Was ich durch dieses Projekt gelernt habe
+
+- Grundlegender Aufbau und Struktur einer Angular-Anwendung.
+- Arbeiten mit Komponenten, Templates und Datenbindung.
+- Umgang mit Listen, Tabellen und einfachen Filterfunktionen.
+- Verarbeitung von Formularen und Benutzerinteraktion.
+- Navigation zwischen verschiedenen Ansichten mittels Routing.
+
+## ℹ Persönlicher Hintergrund
+
+Dieses Projekt war meine **erste praktische Erfahrung mit Angular**.  
+Da seit der Entwicklung einige Zeit vergangen ist, **erinnere ich mich nicht an jedes technische Detail**, aber dieses Projekt zeigt meinen Einstieg in die Frontend-Entwicklung mit Frameworks.  
+
+Nach dieser Phase konzentrierte ich mich auf meine Auswanderung, das Erlernen der deutschen Sprache und die berufliche Integration.  
+Jetzt, mit mehr Stabilität und klarerem beruflichen Ziel, **möchte ich meine Kenntnisse auffrischen und weiter vertiefen**, und mich 
+im Rahmen einer Ausbildung im Bereich Anwendungsentwicklung professionell weiterentwickeln.
+
 # AngularBasico
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.3.
@@ -8,7 +65,8 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 ## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Run `ng generate component component-name` to generate a new component. You can also use 
+`ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
 ## Build
 
@@ -20,7 +78,8 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 ## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first
+add a package that implements end-to-end testing capabilities.
 
 ## Further help
 
