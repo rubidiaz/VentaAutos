@@ -48,12 +48,7 @@ Es wurde mit Angular entwickelt und zeigt eine Liste von Fahrzeugen sowie ein ei
 
 ## ℹ Persönlicher Hintergrund
 
-Dieses Projekt war meine **erste praktische Erfahrung mit Angular**.  
-Da seit der Entwicklung einige Zeit vergangen ist, **erinnere ich mich nicht an jedes technische Detail**, aber dieses Projekt zeigt meinen Einstieg in die Frontend-Entwicklung mit Frameworks.  
-
-Nach dieser Phase konzentrierte ich mich auf meine Auswanderung, das Erlernen der deutschen Sprache und die berufliche Integration.  
-Jetzt, mit mehr Stabilität und klarerem beruflichen Ziel, **möchte ich meine Kenntnisse auffrischen und weiter vertiefen**, und mich 
-im Rahmen einer Ausbildung im Bereich Anwendungsentwicklung professionell weiterentwickeln.
+Dieses Projekt entstand im Rahmen meiner Full-Stack-Weiterbildung und stellt meine damaligen ersten praktischen Erfahrungen mit Angular dar. Nach einer längeren Phase, in der mein Fokus auf dem Erlernen der deutschen Sprache und meiner beruflichen Integration in Deutschland lag, frische ich meine Kenntnisse in der Softwareentwicklung aktuell wieder auf und möchte sie gezielt weiter vertiefen.
 
 # AngularBasico
 
