@@ -27,17 +27,22 @@ export class ListaAutosComponent implements OnInit {
     arregloAutos: string [] = ["uno"]
 
     private _filtro: string = "";
-    get filtro(): string {
-        return this._filtro;
-    }
-    set filtro( filtrarPor : string) {
-        filtrarPor = filtrarPor.toLocaleLowerCase();
-        this.listaAutosFiltrados = this.listaAutos.filter(
-            (auto: Auto ) => auto.marca.toLocaleLowerCase().includes( filtrarPor)
-        )
-        console.log(filtrarPor);
-    }
 
+get filtro(): string {
+    return this._filtro;
+}
+
+set filtro(filtrarPor: string) {
+    this._filtro = filtrarPor;
+
+    this.listaAutosFiltrados = this.listaAutos.filter(
+        (auto: Auto) =>
+            auto.marca
+                .toLocaleLowerCase()
+                .includes(filtrarPor.toLocaleLowerCase())
+    );
+}
+  
     onClickCalificacion (mensaje: string): void {
 
         alert("Dieron click en la calificacion " + mensaje );
