@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { AutosService } from 'src/app/shared/autos.services';
-import { Auto } from 'c:/Users/aleja/AngularBasico/src/app/datos/autos';
+import { Auto } from '../../datos/autos';
 
 
 @Component({
